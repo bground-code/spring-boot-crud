@@ -22,4 +22,5 @@ public class Contato {
     String nome;
     String tipo;
     String telefone;
+    //Adicionar mais para entregar no trabalho de CRUD 25/10
 }

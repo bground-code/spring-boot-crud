@@ -33,6 +33,8 @@ public class ContatoController {
         return modelAndView;
     }
 
+    //Não esquecer das Get para recebimento aula 05/11
+
     @GetMapping(value="/detalhes/{id}")
     public ModelAndView getDetalhes(@PathVariable Long id) {
 
@@ -93,6 +95,6 @@ public class ContatoController {
 
         return "redirect:/";
     }
-    
+    //retornar os parametros
     
 }
